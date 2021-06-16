@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  text-align: end;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #333;
+}
+
+nav i {
+  padding: 10px;
+}
+
+nav i span {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  color: #fff;
+  background: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav i:hover {
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+nav i:hover span {
+  display: block;
+}
+
+.main-div {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-div h2 {
+  font-size: 80px;
+  font-family: -webkit-pictograph;
+  margin-bottom: 1rem;
+}
+
+.main-div h2 .blue {
+  color: #5794f4;
+}
+
+.main-div h2 .red {
+  color: red;
+}
+
+.main-div h2 .orange {
+  color: orange;
+}
+
+.main-div h2 .green {
+  color: green;
+}
+
+.main-div input {
+  width: 500px;
+  display: block;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  padding: 10px;
+  border: 0.1px solid #ccc;
+  outline: transparent;
+}
+
+.main-div input:hover {
+  -webkit-box-shadow: 1px 1px 5px 2px #ddd;
+          box-shadow: 1px 1px 5px 2px #ddd;
+}
+
+.main-div .btn {
+  padding: 8px 15px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  margin-right: 7px;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.main-div .btn:hover {
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.main-div p {
+  font-size: 13px;
+}
+
+.main-div p a {
+  color: blue;
+  padding-bottom: -3px;
+}
+
+.main-div p a:hover {
+  border-bottom: 1px solid blue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .egypt {
+  background: #F2F2F2;
+  padding: 12px 30px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #F2F2F2;
+  padding: 12px 30px;
+}
+
+footer .footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+footer .footer .left a {
+  margin-right: 2em;
+  font-size: 13.5px;
+}
+
+footer .footer .left a:hover {
+  border-bottom: 1px solid;
+}
+
+footer .footer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .footer .right a {
+  margin-left: 2em;
+  font-size: 13.5px;
+}
+
+footer .footer .right a:hover {
+  border-bottom: 1px solid;
+}
+/*# sourceMappingURL=sass.css.map */
